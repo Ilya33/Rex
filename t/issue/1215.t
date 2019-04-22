@@ -1,6 +1,8 @@
 use strict;
 use warnings;
 
+use utf8;
+
 use File::Temp qw(tempdir);
 use Test::More;
 use Rex::Commands;
